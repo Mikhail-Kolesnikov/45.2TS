@@ -1,3 +1,5 @@
+import MyButton from "../../components/myButton/MyButton";
+
 function Lesson07() {
     // interface - типизация объекта
     //объекты можно типизировать через ключевое слово intrface
@@ -120,6 +122,7 @@ function Lesson07() {
         Все самое интересное 
         происходит в теле функции, и в командной строке
       </p>
+      <MyButton func={()=>console.log('click')}/>
     </div>
   );
 }

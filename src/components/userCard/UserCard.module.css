@@ -1,0 +1,21 @@
+.user_card {
+    border: 1px solid wheat;
+    border-radius: 8px;
+    padding: 16px;
+    max-width: 300px;
+    margin: 16px auto;
+    background-color: wheat;
+    box-shadow: 0 4px 6px black;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color:black;
+  }
+  
+  .user_card  {
+    margin: 8px 0;
+    font-size: 16px;
+  }
+  
+  .user_card .button_container {
+    margin-top: 12px;
+  }

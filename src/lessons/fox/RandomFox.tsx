@@ -13,7 +13,7 @@ export default function RandomFox() {
       {imageUrl ? (
         <img src={imageUrl} alt="Random Fox" width={400} height={300} style={{ borderRadius: "8px" }} />
       ) : (
-        <p>Loading...</p>
+        <p>""</p>
       )}
     </div>
   );

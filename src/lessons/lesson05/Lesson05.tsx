@@ -1,8 +1,12 @@
+import { useEffect } from "react";
 import { fellowship } from "./fellowship";
 import "./lesson05.css";
 
 function Lesson05() {
   console.log(fellowship);
+  useEffect(()=>{
+    console.log('lesson 5 mount')
+  },[])
   return (
     <div>
       <h2>React map() components </h2>

@@ -13,7 +13,7 @@ function App() {
       {/* <Lesson06/> */}
       {/* <Lesson07/> */}
       {/* <Lesson08/> */}
-      <RandomFox/>
+      {/* <RandomFox/> */}
     </>
   )
 }

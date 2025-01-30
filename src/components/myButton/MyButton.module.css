@@ -1,0 +1,15 @@
+.myButton{
+  margin: 3px;
+}
+.primary{
+  background-color: aqua;
+}
+.danger{
+  background-color: brown;
+}
+
+.disabled{
+  background-color: gray;
+  cursor: not-allowed;
+  color:blueviolet;
+}

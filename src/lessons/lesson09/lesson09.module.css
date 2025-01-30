@@ -1,0 +1,17 @@
+.heading{
+    font-size: 35px;
+    color: red;
+}
+.desk{
+    font-style: italic;
+}
+.textGgreen{
+    color: greenyellow;
+}
+.list{
+    list-style: none;
+
+}
+.list > li::before{
+    content: '♦️♦️';
+}

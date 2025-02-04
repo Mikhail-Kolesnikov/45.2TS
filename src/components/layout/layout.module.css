@@ -1,0 +1,27 @@
+.header{
+    padding:10px ;
+    width: 100%;
+    height: 50px;
+    background-color: orange;
+    align-items: center;
+    display: flex;
+    justify-content: start;
+    gap: 15px;
+}
+.header a:hover {
+    color: azure;
+    text-decoration: underline;
+}
+.linkActive{
+    text-decoration: underline;
+}
+.main{
+flex: 1;
+}
+.footer{
+    width: 100%;
+    height: 40px;
+    background-color: gray;
+    display: flex;
+    justify-content: centr;
+}

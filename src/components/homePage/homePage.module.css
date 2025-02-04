@@ -1,0 +1,9 @@
+.linkActive{
+    text-decoration: underline;
+    gap: 16px;
+}
+.lessonContainer{
+    display: flex;
+    flex-direction: column;
+    color: blue;
+}

@@ -1,9 +1,23 @@
-.linkActive{
-    text-decoration: underline;
-    gap: 16px;
+.linkActive {
+  text-decoration: underline;
+  gap: 16px;
 }
-.lessonContainer{
-    display: flex;
-    flex-direction: column;
-    color: blue;
+.lessonContainer {
+  margin: 4px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-auto-rows: 130px;
+  gap: 4px;
+}
+.lessonContainer div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: white;
+  background-color: rgb(136, 33, 214);
+}
+.lessonContainer div:hover {
+  background-color: rgb(171, 87, 236);
 }

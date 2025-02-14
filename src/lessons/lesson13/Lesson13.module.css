@@ -1,0 +1,19 @@
+.robotForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+}
+.robotForm{
+    padding: 2px;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+.robotForm > button{
+    width: 100%;
+    padding: 2px;
+    background-color: rgb(12, 79, 57);
+}
+.formContainer span {
+    color: red;
+}

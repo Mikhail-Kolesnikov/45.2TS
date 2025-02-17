@@ -14,6 +14,7 @@ export default function HomePage():JSX.Element {
       <NavLink to="/lesson09"><div>Lesson09</div></NavLink>
       <NavLink to="/lesson12"><div>Lesson12</div></NavLink>
       <NavLink to="/lesson13"><div>Lesson13</div></NavLink>
+      <NavLink to="/homework03"><div>Homework03</div></NavLink>
       <NavLink to="/gender party"><div>Gender Party</div></NavLink>
      
 

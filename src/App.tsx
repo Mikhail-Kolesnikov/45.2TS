@@ -17,6 +17,7 @@ import HomePage from "./components/homePage/HomePage";
 import Lesson12 from "./lessons/lesson12/Lesson12";
 import FormGender from "./lessons/formGender.tsx/FormGender";
 import Lesson13 from "./lessons/lesson13/Lesson13";
+import Homework03 from "./lessons/lesson13/homework03/Homework03";
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
           <Route path="lesson09" element={<Lesson09 />} />
           <Route path="lesson12" element={<Lesson12 />} />
           <Route path="lesson13" element={<Lesson13 />} />
+          <Route path="Homework03" element={<Homework03/>} />
           <Route path="random-fox" element={<RandomFox />} />
           <Route path="gender party" element={<FormGender />} />
           <Route path="user-page" element={<UserPage />} />

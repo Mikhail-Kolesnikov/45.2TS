@@ -2,6 +2,7 @@ import { useFormik } from "formik";
 import { useState } from "react";
 import MyButton from "../../components/myButton/MyButton";
 import styles from './FormGender.module.css'
+import * as Yup from 'yup'
 
 interface IGenderData {
   name: string;
@@ -13,12 +14,27 @@ const initial: IGenderData = {
     gender: "",
     probability: 0
 }
+
+const schema2 = Yup.object().shape({
+  name:Yup
+  .string()
+  .typeError('name is string')
+  .min(2,'model number is more than 100')
+  .max(100,'moder number is less than 1500' ),
+  
+});
+
+
+
+
 export default function FormGender(): JSX.Element {
   const [gender, setGender] = useState<IGenderData>(initial);
   const formik = useFormik({
     initialValues: {
       name: '',
-    } as {name: string},
+    },  validationSchema:schema2,
+    validateOnChange:false,
+    
     onSubmit: (values: {name: string}, { resetForm }) => {
         getFormGender(values.name);
       console.log(values);
@@ -46,6 +62,7 @@ export default function FormGender(): JSX.Element {
         <span>gender:{gender.gender} </span>
         <br />
         <span>probability: {gender.probability} </span>
+        <span> {formik.errors.name}</span>
       </form>
     </div>
   );

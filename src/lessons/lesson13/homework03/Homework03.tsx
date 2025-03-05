@@ -4,11 +4,8 @@ import { useFormik } from "formik"
 
 import MyButton from "../../../components/myButton/MyButton";
 import * as Yup from 'yup'
-interface IFormValues{
-    username: string;
-    email:string;
-    confirmPassword:string
-}
+
+
 
 export const schema = Yup.object().shape({
     username: Yup.string()
